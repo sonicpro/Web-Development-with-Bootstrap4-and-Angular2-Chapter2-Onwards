@@ -1,12 +1,32 @@
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 table-bordered">
-            <div class="product-menu">Logo and Menu</div>
+<nav class="navbar navbar-fixed-top navbar-dark" style="background-color: #666">
+    <div class="container">
+        <!-- Toggle button is snown only on extra small (xs) viewports. -->
+        <button class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target="#exCollapsingNavbar">&#9776;</button>
+        <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar">
+            <a class="navbar-brand" href="#">Dream Bean</a>
+            <div class="nav navbar-nav">
+                <a class="nav-item nav-link active" href="#">
+                    Home <span class="sr-only">(current)</span>
+                </a>
+                <a class="nav-item nav-link" href="#">Products</a>
+                <a class="nav-item nav-link" href="#">Checkout</a>
+                <a class="nav-item nav-link" href="#">Sign out</a>
+            </div>
+
+            <!-- Cart item -->
+            <ul class="nav navbar-nav pull-xs-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" expanded="false">Cart</a>
+                    <div class="dropdown-menu">
+                        <span>The Cart Placeholder</span>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
-    <!-- /.row -->
-</div>
-<!-- /.container -->
+    <!-- /.container -->
+</nav>
+<!-- /.navbar -->
 <div class="container">
     <div class="row">
         <div class="col-md-12 table-bordered">
